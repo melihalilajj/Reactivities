@@ -22,7 +22,7 @@ namespace Persistence
 
                 foreach (var user in users)
                 {
-                    await userManager.CreateAsync(user, "Pa$$wOrd");
+                    await userManager.CreateAsync(user,"Pa$$w0rd");
                 }
             }
             if (context.Activities.Any()) return;
